@@ -50,10 +50,15 @@ export function icon(name, cls = '') {
   return `<svg class="icon${cls ? ' ' + cls : ''}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${paths[name] || ''}</svg>`;
 }
 
+// The Ha'penny Bridge: iron arch, railed deck, centre lamp and the Liffey below.
 export const logoMark = `<svg class="logo__mark" viewBox="0 0 40 40" aria-hidden="true" focusable="false">
   <rect class="lm-bg" width="40" height="40" rx="11"/>
-  <path class="lm-arc" d="M7.5 28c3.6-7.2 8.1-10.6 12.5-10.6S28.9 20.8 32.5 28" fill="none" stroke-width="2.6" stroke-linecap="round"/>
-  <path class="lm-arc" d="M13 23.6v4.4M20 20.6v7.4M27 23.6v4.4" stroke-opacity=".55" stroke-width="1.6" stroke-linecap="round"/>
-  <path d="M20 7.5v7.4M16.3 11.2h7.4" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/>
-  <path d="M7.5 32h25" stroke="#fff" stroke-opacity=".35" stroke-width="1.8" stroke-linecap="round"/>
+  <path class="lm-arc" d="M5.5 32Q20 15 34.5 32" fill="none" stroke-width="2.2" stroke-linecap="round"/>
+  <path class="lm-arc" d="M8 25.9V29.3M12 24.2V26.1M28 24.2V26.1M32 25.9V29.3" stroke-opacity=".6" stroke-width="1.2" stroke-linecap="round"/>
+  <path class="lm-line" d="M4.5 28Q20 17.5 35.5 28" fill="none" stroke-width="1.8" stroke-linecap="round"/>
+  <path class="lm-line" d="M8 22.4V25.9M12 20.7V24.2M16 19.6V23.1M24 19.6V23.1M28 20.7V24.2M32 22.4V25.9" stroke-opacity=".5" stroke-width="1.1" stroke-linecap="round"/>
+  <path class="lm-line" d="M4.5 24.5Q20 14 35.5 24.5" fill="none" stroke-width="1.6" stroke-linecap="round"/>
+  <path class="lm-line" d="M16.6 19.6Q20 9.6 23.4 19.6M20 14.6V12.6" fill="none" stroke-width="1.5" stroke-linecap="round"/>
+  <circle class="lm-lamp" cx="20" cy="10.9" r="1.9"/>
+  <path class="lm-arc" d="M8.5 35.2H31.5" stroke-opacity=".45" stroke-width="1.3" stroke-linecap="round"/>
 </svg>`;

@@ -218,6 +218,8 @@ main:focus { outline: none; }
 .logo__mark { width: 42px; height: 42px; }
 .logo__mark .lm-bg { fill: var(--navy-900); }
 .logo__mark .lm-arc { stroke: var(--teal-300); }
+.logo__mark .lm-line { stroke: #fff; }
+.logo__mark .lm-lamp { fill: #f5c160; }
 .logo__text { display: flex; flex-direction: column; line-height: 1.1; }
 .logo__text strong { font-family: var(--font-serif); font-size: 1.32rem; font-weight: 600; letter-spacing: -.015em; }
 .logo__text span { font-size: .72rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-top: .2rem; }
